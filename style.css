@@ -1,11 +1,111 @@
-body{
-    background-color: #202020;
-    color: #ffffff;
-    font-family: "Arial";
+/* ===== ZÁKLAD ===== */
+* {
+    box-sizing: border-box;
 }
-a{
-    color: #00ffff
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    line-height: 1.6;
 }
-.center{
-    text-align: center
+
+/* ===== CENTROVÁNÍ ===== */
+.center {
+    text-align: center;
+}
+
+/* ===== HLAVIČKA ===== */
+header {
+    background-color: #1b1f2a;
+    color: white;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h3 {
+    margin-top: 5px;
+    font-weight: normal;
+    color: #b5c7ff;
+}
+
+/* ===== NAVIGACE ===== */
+nav {
+    background-color: #2a2f45;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== SEKCE ===== */
+section {
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+section h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* ===== NOVINKY ===== */
+article {
+    background-color: #fafafa;
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 5px solid #4caf50;
+}
+
+/* ===== SEZNAMY ===== */
+ul {
+    margin-left: 20px;
+}
+
+/* ===== GALERIE ===== */
+#galerie img {
+    margin: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* ===== VIDEO & MAPA ===== */
+iframe {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+/* ===== PATIČKA ===== */
+footer {
+    margin-top: 30px;
+    background-color: #1b1f2a;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: #8fd3ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
